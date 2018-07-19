@@ -112,6 +112,7 @@ class Mastodon extends Adapter
     run: ->
         options =
             access_token: process.env.HUBOT_MASTODON_ACCESS_TOKEN
+            api_url: process.env.HUBOT_MASTODON_API_URL
         @api = new masto options
 
         @connect()
