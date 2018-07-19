@@ -13,3 +13,4 @@ A [Hubot](https://hubot.github.com/) adapter for the [Mastodon social network](h
 Required:
 
 * HUBOT_MASTODON_ACCESS_TOKEN - the OAuth2 access token. [Instructions on how to register your application.](https://github.com/tootsuite/documentation/blob/master/Using-the-API/API.md#apps)
+* HUBOT_MASTODON_API_URL - mastodon api url (defaults to https://mastodon.social/api/v1/)
